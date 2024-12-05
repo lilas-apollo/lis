@@ -189,6 +189,15 @@
     "components": [
         {
             "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
+            "title": "test",
+            "icon": "sicon-image-carousel",
+            "path": "test.test",
+            "fields": [
+           
+            ]
+        },
+        {
+            "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
             "title": "صور متحركة (محسنة)",
             "icon": "sicon-image-carousel",
             "path": "home.enhanced-slider",

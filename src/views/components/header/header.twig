@@ -8,9 +8,14 @@
 {% set important_links = theme.settings.get('important_links') %}
 <header class="store-header">
   {# Top Nav #}
-  <div class="top-navbar">
+
+  <div class="w-full p-6 flex justify-center bg-gray-300"> 
+    <salla-contacts is-header></salla-contacts>
+  </div>
+
+  <div class="top-navbar bg-pink-700">
     <div class="container flex justify-between">
-      <div class="flex-1 flex items-center gap-2">
+      <div class="flex-1 flex items-center gap-6 text-white">
           {# Footer Menu #}
           {% if important_links %}
             <salla-menu source="footer" topnav></salla-menu>
@@ -36,12 +41,12 @@
           {% endif %}
 
           {# Search bar #}
-          <div class="header-search flex-1">
+          <div class="header-search flex-2">
             <salla-search inline oval height="36"></salla-search>
           </div>
       </div>
 
-      <salla-contacts is-header></salla-contacts>
+      {# <salla-contacts is-header></salla-contacts> #}
     </div>
   </div>
 
@@ -62,8 +67,9 @@
                             <h2 class="sr-only">{{ store.name }}</h2>
                           {% endif %}
                       </a>
-                      <custom-main-menu></custom-main-menu>
+                      
                   </div>
+                  <custom-main-menu></custom-main-menu>
                   <div class="flex items-center justify-end">
                       {% if user.type=='user' %}
                         <salla-user-menu avatar-only show-header></salla-user-menu>
