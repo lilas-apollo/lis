@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "83fe446b-73bb-4e61-b587-5b56c4b90295",
+            "title": "lilaso",
+            "icon": "sicon-store",
+            "path": "lilas.lilas",
+            "fields": []
         }
     ],
     "support_url": null,
