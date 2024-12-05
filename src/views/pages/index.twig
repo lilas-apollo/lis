@@ -9,10 +9,11 @@
 {% block content %}
     {% component home %}
     {{ component.title}}
+    
+    {# {% include 'lilas.lilas' %} #}
     {% for banner in component.fixed_banner %}
     <h2>{{banner.title}}</h2>
     {% endfor %}
-<h1>ddddddddddddddddddddddddddddddddddddddddddddddddddddddd</h1>
     
 {% endblock %}
 {% block scripts %}
