@@ -1,10 +1,10 @@
 {
     "name": {
-        "en": "lis",
-        "ar": "موعد"
+        "ar": "Theme 0wd0fdyi",
+        "en": "Theme 0wd0fdyi"
     },
     "repository": "https://github.com/lilas-apollo/lis",
-    "author_email": "lilasghanem777@gmail.com",
+    "author_email": "moazalsamman603@gmail.com",
     "features": [
         "mega-menu",
         "fonts",
@@ -192,9 +192,7 @@
             "title": "test",
             "icon": "sicon-image-carousel",
             "path": "test.test",
-            "fields": [
-           
-            ]
+            "fields": []
         },
         {
             "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
@@ -824,9 +822,9 @@
             "fields": []
         }
     ],
-    "support_url": null,
+    "support_url": "",
     "description": {
-        "en": "",
-        "ar": ""
+        "ar": null,
+        "en": null
     }
 }
