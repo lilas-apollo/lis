@@ -827,6 +827,13 @@
             "icon": "sicon-store",
             "path": "lilas.lilas",
             "fields": []
+        },
+        {
+            "key": "356a472c-f0e6-4353-949c-aba7e0603035",
+            "title": "banner",
+            "icon": "sicon-store",
+            "path": "test.banner",
+            "fields": []
         }
     ],
     "support_url": "",
