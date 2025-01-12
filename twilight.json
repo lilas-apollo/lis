@@ -845,7 +845,7 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "banner_group.banner-group.banner_title",
+                            "id": "banner_group.banner_title,
                             "type": "static",
                             "format": "title",
                             "label": "Banner_Title",
@@ -854,7 +854,7 @@
                             "icon": "sicon-format-text"
                         },
                         {
-                            "id": "banner_group.banner-group.banner_subtitle",
+                            "id": "banner_group.banner_subtitle",
                             "type": "static",
                             "format": "description",
                             "label": "Banner_subtitle",
@@ -863,7 +863,7 @@
                             "icon": "sicon-format-size"
                         },
                         {
-                            "id": "banner_group.banner-group.banner_image",
+                            "id": "banner_group.banner_image",
                             "type": "string",
                             "format": "image",
                             "label": "Banner_Image",
@@ -875,7 +875,7 @@
                             "required": true
                         },
                         {
-                            "id": "banner_group.banner-group.banner_url",
+                            "id": "banner_group.banner_url",
                             "type": "string",
                             "format": "url",
                             "inputType": "url",
