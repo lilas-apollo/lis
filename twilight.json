@@ -838,14 +838,14 @@
                     "id": "banner_group",
                     "type": "collection",
                     "format": "collection",
-                    "label": "Collection",
+                    "label": "Banner_group",
                     "description": "banner",
                     "labelHTML": null,
                     "item_label": "banner",
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "banner_group.banner_title",
+                            "id": "banner_group.banner_title,
                             "type": "static",
                             "format": "title",
                             "label": "Banner_Title",
