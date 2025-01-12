@@ -835,17 +835,17 @@
             "path": "test.banner",
             "fields": [
                 {
-                    "id": "banner-group",
+                    "id": "banner_group",
                     "type": "collection",
                     "format": "collection",
-                    "label": "Collection",
+                    "label": "Banner_group",
                     "description": "banner",
                     "labelHTML": null,
                     "item_label": "banner",
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "banner-group.banner_title",
+                            "id": "banner_group.banner-group.banner_title",
                             "type": "static",
                             "format": "title",
                             "label": "Banner_Title",
@@ -854,7 +854,7 @@
                             "icon": "sicon-format-text"
                         },
                         {
-                            "id": "banner-group.banner_subtitle",
+                            "id": "banner_group.banner-group.banner_subtitle",
                             "type": "static",
                             "format": "description",
                             "label": "Banner_subtitle",
@@ -863,7 +863,7 @@
                             "icon": "sicon-format-size"
                         },
                         {
-                            "id": "banner-group.banner_image",
+                            "id": "banner_group.banner-group.banner_image",
                             "type": "string",
                             "format": "image",
                             "label": "Banner_Image",
@@ -875,7 +875,7 @@
                             "required": true
                         },
                         {
-                            "id": "banner-group.banner_url",
+                            "id": "banner_group.banner-group.banner_url",
                             "type": "string",
                             "format": "url",
                             "inputType": "url",
