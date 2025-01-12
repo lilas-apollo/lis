@@ -833,7 +833,22 @@
             "title": "banner",
             "icon": "sicon-store",
             "path": "test.banner",
-            "fields": []
+            "fields": [
+                {
+                    "id": "banner-group",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": "banner",
+                    "labelHTML": null,
+                    "item_label": "banner",
+                    "icon": "sicon-list-add",
+                    "fields": [],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "",
